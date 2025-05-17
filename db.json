@@ -1,0 +1,113 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Tiêu đề bài viết 1",
+      "content": "Nội dung bài viết 1",
+      "description": "Mô tả bài viết 1"
+    },
+    {
+      "id": 2,
+      "title": "Tiêu đề bài viết 2",
+      "content": "Nội dung bài viết 2",
+      "description": "Mô tả bài viết 2"
+    },
+    {
+      "id": 3,
+      "title": "Tiêu đề bài viết 3",
+      "content": "Nội dung bài viết 3",
+      "description": "Mô tả bài viết 3"
+    },
+    {
+      "id": 4,
+      "title": "Tiêu đề bài viết 4",
+      "content": "Nội dung bài viết 4",
+      "description": "Mô tả bài viết 4"
+    },
+    {
+      "id": 6,
+      "title": "Tiêu đề bài viết 6",
+      "content": "Nội dung bài viết 6",
+      "description": "Mô tả bài viết 6"
+    },
+    {
+      "id": 7,
+      "title": "Tiêu đề bài viết 7",
+      "content": "Nội dung bài viết 7",
+      "description": "Mô tả bài viết 7"
+    },
+    {
+      "description": "Mô tả bài viết 9",
+      "title": "Tiêu đề bài viết 9",
+      "content": "Nội dung bài viết 9",
+      "id": 9
+    },
+    {
+      "description": "Mô tả bài viết 10",
+      "title": "Tiêu đề bài viết 10",
+      "content": "Nội dung bài viết 10",
+      "id": 10
+    },
+    {
+      "description": "Mô tả bài viết 11",
+      "title": "Tiêu đề bài viết 11",
+      "content": "Nội dung bài viết 11",
+      "id": 11
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "post_id": 2,
+      "content": "Binh luận post 1"
+    },
+    {
+      "id": 2,
+      "post_id": 2,
+      "content": "Binh luận post 2"
+    },
+    {
+      "id": 3,
+      "post_id": 3,
+      "content": "Binh luận post 3"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Điện tử",
+      "description": "Sản phẩm công nghệ"
+    },
+    {
+      "id": 2,
+      "name": "Thời trang",
+      "description": "Quần áo và phụ kiện"
+    },
+    {
+      "id": 3,
+      "name": "Mỹ phẩm",
+      "description": "Làm đẹp và chăm sóc sức khỏe"
+    },
+    {
+      "id": 4,
+      "name": "Đồ ăn",
+      "description": "Thực phẩm và đồ dùng sinh hoạt"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "iPhone 14",
+      "price": 1000,
+      "description": "Điện thoại thông minh",
+      "categoryId": 1
+    },
+    {
+      "id": 2,
+      "name": "Kem dưỡng da",
+      "price": 20000,
+      "description": "Kem dưỡng ẩm và nuôi dưỡng da",
+      "categoryId": 3
+    }
+  ]
+}

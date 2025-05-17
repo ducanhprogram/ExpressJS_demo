@@ -1,0 +1,32 @@
+//Posts:
+/_
+[GET] /api/v1/posts
+[POST] /api/v1/posts
+[GET] /api/v1/posts/:id
+[PUT/PATCH] /api/v1/posts/:id
+[DELETE] /api/v1/posts/:id
+_/
+
+//Comments
+/\*
+[GET] /api/v1/comments?post_id=1
+[POST] /api/v1/comments
+[GET] /api/v1/comments/:id
+[PUT/PATCH] /api/v1/comments/:id
+[DELETE] /api/v1/comments/:id
+
+[GET] /api/v1/posts/:id/comments
+\*/
+
+/\*
+
+-   RDBMS: sqllite, mysql, mariadb, ...
+    -- table: row (record), column (field) các trường
+-   NoSQL: MongoDB, ...
+
++MVC
+
+-   Model: Data source (Database, API, ...)
+-   View: HTML, CSS
+-   Controller: req, service, res
+    \*/
