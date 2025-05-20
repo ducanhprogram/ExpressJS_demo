@@ -1,4 +1,8 @@
-//tầng dữ liệu
+//tầng dữ liệu :
+// Dữ liệu di chuyển qua các tầng như sau:
+
+// Client → Router → Controller → Service → Model → Database
+// Kết quả trả về theo chiều ngược lại: Database → Model → Service → Controller → Client.
 const db = require("@/configs/db");
 
 exports.findAll = async (page, limit) => {

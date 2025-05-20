@@ -3,12 +3,16 @@ const express = require("express");
 const router = require("@/routes");
 const handleNotFound = require("@/middewares/errors/handleNotFound");
 const handleErrors = require("@/middewares/errors/handleErrors");
+const responseEnhancer = require("@/middewares/responseEnhancer");
 const app = express();
 const port = 3000;
 
 //Đăng ký middleware
 app.use(express.json()); // Middleware to parse JSON body
 // để đọc req.body nếu là JSON
+
+app.use(responseEnhancer);
+
 app.use("/api/v1", router); //Gắn tuyến đường
 
 //Handle 404

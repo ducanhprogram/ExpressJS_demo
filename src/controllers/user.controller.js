@@ -8,16 +8,16 @@ exports.getList = async (req, res) => {
     let limit = +req.query.limit || 10;
     let maxList = 50;
     if (limit > maxList) limit = maxList;
-    const last_page = Math.ceil(total / limit);
-
     const { items, total } = await userService.getAll(page, limit);
+    let last_page = Math.ceil(total / limit);
+
     response.success(res, 200, {
         items,
         pagination: {
             current_page: parseInt(page),
             per_page: parseInt(limit),
             total: total,
-            last_page: last_page,
+            last_page,
         },
     });
 };

@@ -1,5 +1,4 @@
 //tầng dịch vụ
-const { readDB, writeDB } = require("@/utils/jsonDb");
 const userModel = require("@/models/user.model");
 
 class UserService {
